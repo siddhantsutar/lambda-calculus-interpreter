@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:orientation="vertical"><![CDATA[
+    tools:context="com.siddhantsutar.lambda_calculus_interpreter.MainActivity">
+ ]]>
+    <EditText
+        android:id="@+id/edit_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Enter expression" />
+    <Button
+        android:id="@+id/button_evaluate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Evaluate" />
+    <TextView
+        android:id="@+id/text_output"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars = "vertical"
+        android:text="" />
+</LinearLayout>
